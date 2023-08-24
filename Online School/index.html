@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Online school</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @media(min-width:768px) {
+            .container-1 {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        
+        .boxes {
+            display: grid;
+            grid-template-columns: 0.5fr 0.5fr 0.5fr;
+            grid-auto-rows: minmax(100px, auto);
+            grid-gap: 0.9em;
+            justify-items: stretch;
+            /* width: 80%; */
+        }
+        
+        .boxes2 {
+            display: grid;
+            grid-template-columns: 0.5fr 0.5fr 0.5fr;
+            grid-auto-rows: minmax(100px, auto);
+            grid-gap: 0.9em;
+            justify-items: stretch;
+        }
+        
+        .boxes>div,
+        .boxes2>div {
+            padding-top: 40px;
+            color: white;
+            text-align: center;
+            background-color: #bcbcba;
+            ;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .boxes a:hover {
+            color: #00276e;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+
+        <li id="h">Online school </li>
+    </ul>
+
+
+
+
+    <section id="main">
+        <div class="container">
+            <h1>Hello</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </section>
+    <div class="container">
+        <div class="boxes">
+            <div class="box1">
+                <a href="l1.html">
+				HTML
+			</a>
+            </div>
+            <div class="box2">
+                <a href="l2.html">
+				CSS
+			</a>
+            </div>
+            <div class="box3">
+                <a href="l3.html">
+				JS
+			</a>
+            </div>
+
+        </div>
+        <br><br>
+
+        <div class="boxes2">
+            <div class="box4">
+                <a href="l4.html">
+					BOOTSRAP
+			</a>
+            </div>
+            <div class="box5">
+                <a href="l5.html">
+				JQUERY
+			</a>
+            </div>
+            <div class="box6">
+                <a href="l6.html">
+				ANGULARJS
+			</a>
+            </div>
+        </div>
+    </div>
+    <aside id="aside">
+        <div class="container">
+
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit e sse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+
+            </p>
+            <p><br><br></p>
+        </div>
+    </aside>
+    <footer id="footer">
+        <div class="container">
+            Copyright &copy;Online School 2023
+        </div>
+    </footer>
+</body>
+
+</html>
